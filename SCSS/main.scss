@@ -46,11 +46,76 @@ p{
         justify-content: center;
     }
 }
+.container-animaux {
+    width: 100%;
+    margin: auto;
+    background: url(/img/BC\ Animaux.png);
+    background-size: cover;
+    filter: brightness(0.8);
+}
+.animaux{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    img{
+        width: 200px; 
+        height: auto; 
+        border-radius: 8px; /* Arrondir les coins des images */
+    }
+    p{
+        text-align: center;
+        color: #FFFFFF;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+}
 
-.shadowbox {
-    width: 15em;
-    border: 1px solid #333;
-    box-shadow: 8px 8px 5px #444;
-    padding: 8px 12px;
-    background-image: linear-gradient(180deg, #705454, #8e2626 40%, #190808);
-  }
+.Services{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    img{
+        width: 200px; 
+        height: auto; 
+        border-radius: 8px; /* Arrondir les coins des images */
+    }
+    p{
+        text-align: center;
+        color: #FFFFFF;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+}
+
+.avis-container {
+    overflow: hidden; /* Pour cacher le débordement lors du défilement */
+    height: 100px; /* Hauteur de la section d'avis */
+    position: relative; /* Positionner le conteneur */
+    margin: 20px; /* Marge autour de la section */
+}
+
+.avis {
+    display: flex; /* Flexbox pour aligner les avis en ligne */
+    animation: defilement 10s linear infinite; /* Animation de défilement */
+}
+
+.avis-item {
+    min-width: 100%; /* Chaque avis occupe 100% de la largeur */
+    padding: 10px; /* Espacement autour de chaque avis */
+    box-sizing: border-box; /* Inclut le padding dans la largeur */
+    text-align: center; /* Centrer le texte */
+}
+
+@keyframes defilement {
+    0% {
+        transform: translateY(0); /* Début de la position */
+    }
+    100% {
+        transform: translateY(-100%); /* Finit à la position supérieure */
+    }
+}
+.formulaire{
+    background-color: #d1d2bf;
+    padding: auto;
+    height: auto;
+}
