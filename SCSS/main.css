@@ -12106,4 +12106,19 @@ p {
   padding: 10px; /* Espace intérieur */
   border: 1px solid #ccc; /* Bordure */
   border-radius: 4px;
+}
+
+.container-singin {
+  background-color: white; /* Couleur de fond du formulaire */
+  padding: 20px;
+  border-radius: 8px; /* Arrondit les bords du conteneur */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+  width: 400px; /* Largeur fixe du formulaire */
+  margin: auto;
+}
+.container-singin label {
+  align-items: center;
+  display: block; /* Fait que les labels s'affichent en bloc */
+  margin-bottom: 5px; /* Espace entre le label et le champ */
+  color: #555; /* Couleur des labels */
 }/*# sourceMappingURL=main.css.map */
