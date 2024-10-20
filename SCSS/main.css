@@ -12037,19 +12037,19 @@ p {
 
 .Services {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   margin: 20px;
 }
 .Services img {
-  width: 200px;
+  width: 50%;
   height: auto;
   border-radius: 8px; /* Arrondir les coins des images */
 }
 .Services p {
   text-align: center;
-  color: #FFFFFF;
-  font-size: 18px;
   margin-top: 10px;
+  color: #020202;
+  font-size: 1em;
 }
 
 .avis-container {
