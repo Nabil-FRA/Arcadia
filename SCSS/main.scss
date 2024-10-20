@@ -119,3 +119,27 @@ p{
     padding: auto;
     height: auto;
 }
+
+.container-contact{
+    background-color: white; /* Couleur de fond du formulaire */
+    padding: 20px;
+    border-radius: 8px; /* Arrondit les bords du conteneur */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    width: 400px; /* Largeur fixe du formulaire */
+    margin:auto;
+label {
+    align-items: center;
+    display: block; /* Fait que les labels s'affichent en bloc */
+    margin-bottom: 5px; /* Espace entre le label et le champ */
+    color: #555; /* Couleur des labels */
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%; /* Prend toute la largeur */
+    padding: 10px; /* Espace intérieur */
+    border: 1px solid #ccc; /* Bordure */
+    border-radius: 4px; 
+}
+
+}

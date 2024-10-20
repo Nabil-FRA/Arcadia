@@ -12083,4 +12083,27 @@ p {
   background-color: #d1d2bf;
   padding: auto;
   height: auto;
+}
+
+.container-contact {
+  background-color: white; /* Couleur de fond du formulaire */
+  padding: 20px;
+  border-radius: 8px; /* Arrondit les bords du conteneur */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+  width: 400px; /* Largeur fixe du formulaire */
+  margin: auto;
+}
+.container-contact label {
+  align-items: center;
+  display: block; /* Fait que les labels s'affichent en bloc */
+  margin-bottom: 5px; /* Espace entre le label et le champ */
+  color: #555; /* Couleur des labels */
+}
+.container-contact input[type=text],
+.container-contact input[type=email],
+.container-contact textarea {
+  width: 100%; /* Prend toute la largeur */
+  padding: 10px; /* Espace intérieur */
+  border: 1px solid #ccc; /* Bordure */
+  border-radius: 4px;
 }/*# sourceMappingURL=main.css.map */
