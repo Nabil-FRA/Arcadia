@@ -158,4 +158,83 @@ label {
     color: #555; /* Couleur des labels */
 }
 
+
+}
+
+.create-account-form{
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+div {
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px;
+}
+
+button:hover {
+    background: #45a049;
+}
+}
+
+.container-services {
+
+display: flex; /* Utiliser Flexbox pour aligner les cartes horizontalement */
+  justify-content: space-around; /* Espacement égal entre les cartes */
+  max-width: 1200px; /* Largeur maximale du conteneur */
+  margin: 0 auto; /* Centrer le conteneur */
+}
+
+
+.service-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    width: 300px; /* Ajuste la largeur selon tes besoins */
+    transition: transform 0.2s; /* Animation lors du survol */
+    flex: 1 1 300px;
+  
+  .service-card:hover {
+    transform: scale(1.05); /* Effet de zoom au survol */
+  }
+  
+img {
+    width: 100%;
+    border-radius: 8px 8px 0 0; /* Coins arrondis en haut de l'image */
+    height: auto;
+    object-fit: cover;
+  }
+  
+  h3 {
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  p {
+    color: #555;
+    line-height: 1.6; /* Espacement entre les lignes */
+  }
+  
+  button {
+    background-color: #28a745; /* Couleur du bouton */
+    color: #ffffff; /* Couleur du texte */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s; /* Animation lors du survol */
+  }
 }
